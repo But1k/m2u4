@@ -1,0 +1,107 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color:beige;
+    color:black;
+}
+
+h1{
+    color:color-mix(in srgb, color percentage, color percentage);
+    font-size: 46px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1:hover {
+    color:green;
+    font-size: 74px;
+}
+
+h2{
+    color:color-mix(in srgb, color percentage, color percentage);
+    font-size: 46px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2:hover {
+    color:green;
+    font-size: 74px;
+}
+h3{
+    color:color-mix(in srgb, color percentage, color percentage);
+    font-size: 46px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3:hover {
+    color:green;
+    font-size: 74px;
+}
+
+@keyframes color-change {
+    0% {
+      color: green;
+    }
+  
+    50% {
+      color:chartreuse;
+    }
+  
+    100% {
+      color: greenyellow;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+      color: green;
+    }
+  
+    50% {
+      color:chartreuse;
+    }
+  
+    100% {
+      color: greenyellow;
+    }
+}
+
+h2 {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+      color: green;
+    }
+  
+    50% {
+      color:chartreuse;
+    }
+  
+    100% {
+      color: greenyellow;
+    }
+}
+
+h3 {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+      color: yellow;
+    }
+  
+    50% {
+      color:rgb(164, 219, 13);
+    }
+  
+    100% {
+      color: rgb(148, 247, 0);
+    }
+}
+
+h4 {
+    animation: color-change 3s infinite;
+}
